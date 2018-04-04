@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "description": "Chu's bot",
     "main": "bot.js",
+    "scripts": {
+        "start": "node bot.js"
+    },
     "author": "Justin-Chu",
     "dependencies": {
         "chu": "^1.0.0",
