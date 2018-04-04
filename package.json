@@ -1,0 +1,12 @@
+{
+    "name": "chu-bot",
+    "version": "1.0.0",
+    "description": "Chu's bot",
+    "main": "bot.js",
+    "author": "Justin-Chu",
+    "dependencies": {
+        "chu": "^1.0.0",
+        "discord.io": "^2.5.3",
+        "winston": "^2.4.1"
+    }
+}
