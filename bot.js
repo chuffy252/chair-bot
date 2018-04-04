@@ -27,7 +27,9 @@ bot.on('message', function (user, userID, channelID, message, evt) {
         msgs = 0;
         bot.sendMessage({
             to: channelID,
-            message: 'fuck you michael'
+            message: 'yeah'
         })
     }
 });
+
+bot.login(process.env.BOT_TOKEN)
