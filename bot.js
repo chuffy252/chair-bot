@@ -15,3 +15,8 @@ client.on('message', message => {
        
     }
 });
+
+var http = require("http");
+setInterval(function() {
+    http.get("https://git.heroku.com/chuffy-bot.git");
+}, 300000);
