@@ -5,10 +5,15 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
+const noSpam = 0;
+
 client.on('message', message => {
     if (message.author.username === 'Chuffy') {
-    	message.reply('i love u chu');
-  	}
+        noSpam++;
+    }
+    if(noSpam == 5){
+        message.reply('i love u chu');
+    }
 });
 
 client.login(process.env.BOT_TOKEN);
