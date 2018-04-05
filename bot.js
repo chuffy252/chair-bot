@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.user.id === '234147989432696832') {
+    if (message.author.username === 'Chuffy') {
     	message.reply('i love u chu');
   	}
 });
