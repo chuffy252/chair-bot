@@ -16,11 +16,13 @@ client.on('message', message => {
             nospam = 0;
         }
     } 
+});
+
+client.on('message', message => {
     if (message.content.substring(0,2) === 'dog'){
         message.react('🐕');
     }
 });
-
 var http = require("http");
 setInterval(function() {
     http.get("https://chuffy-bot.herokuapp.com/");
