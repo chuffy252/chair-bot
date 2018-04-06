@@ -15,9 +15,8 @@ client.on('message', message => {
             message.reply('i love u chu');
             nospam = 0;
         }
-    }
-    else if (message.author.username === 'TheCatGod'){
-        message.react(message.guild.emojis.get('431800112772284416'));
+    } else if (message.author.username === 'TheCatGod'){
+        message.react('🐕');
     }
 });
 
