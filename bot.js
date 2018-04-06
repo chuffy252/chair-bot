@@ -20,3 +20,5 @@ var http = require("http");
 setInterval(function() {
     http.get("https://git.heroku.com/chuffy-bot.git");
 }, 300000);
+
+client.login(process.env.BOT_TOKEN);
