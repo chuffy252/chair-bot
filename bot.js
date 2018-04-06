@@ -17,7 +17,7 @@ client.on('message', message => {
         }
     }
     else if (message.author.username === 'TheCatGod'){
-        message.react(message.guild.emojis.get('431653076705738752'));
+        message.react(message.guild.emojis.get('431800112772284416'));
     }
 });
 
