@@ -15,7 +15,7 @@ client.on('message', message => {
             message.reply('i love u chu');
             nospam = 0;
         }
-    } else if (message.author.username === 'TheCatGod'){
+    } else if (message.content.substring(0,3) === 'dog'){
         message.react('🐕');
     }
 });
