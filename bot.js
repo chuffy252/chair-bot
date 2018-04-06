@@ -19,7 +19,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content.substring(0,2) === 'dog'){
+    if (message.content.substring(0,3) === 'dog'){
         message.react('🐕');
     }
 });
