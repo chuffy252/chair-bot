@@ -10,9 +10,10 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.author.username === 'Chuffy') {
-        
+        nospam = nospam + 1;
+    }
+    if(nospam == 5){
         message.reply('i love u chu');
-       
     }
 });
 
