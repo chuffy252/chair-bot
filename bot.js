@@ -16,7 +16,7 @@ client.on('message', message => {
             nospam = 0;
         }
     } 
-    if (message.content.substring(0,3) === 'dog'){
+    if (message.content.substring(0,2) === 'dog'){
         message.react('🐕');
     }
 });
