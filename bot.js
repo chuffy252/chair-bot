@@ -14,6 +14,7 @@ client.on('message', message => {
     }
     if(nospam == 5){
         message.reply('i love u chu');
+        nospam = 0;
     }
 });
 
