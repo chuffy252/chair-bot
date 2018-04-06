@@ -11,10 +11,13 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.author.username === 'Chuffy') {
         nospam = nospam + 1;
+        if(nospam == 5){
+            message.reply('i love u chu');
+            nospam = 0;
+        }
     }
-    if(nospam == 5){
-        message.reply('i love u chu');
-        nospam = 0;
+    else if (message.author.username === 'TheCatGod'){
+        message.react(message.guild.emojis.get('431653076705738752'));
     }
 });
 
