@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content.substring(0,3) === 'dog'){
+    if (message.content.toLowerCase().substring(0,3) === 'dog'){
         message.react('🐕');
     }
 });
