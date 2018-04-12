@@ -23,6 +23,14 @@ client.on('message', message => {
 });
 
 
+client.on('message', message => {
+
+        if(message.author.username === 'CatBot') {
+            message.reply('shut up');
+        }
+
+
+    
 
 
 
