@@ -28,7 +28,7 @@ client.on('message', message => {
         if(message.author.username === 'Catbot') {
             message.reply('shut up');
         }
-
+} 
 
     
 
