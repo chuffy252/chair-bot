@@ -22,6 +22,15 @@ client.on('message', message => {
     }
 });
 
+client.on('message',message => {
+  if(message.content.toLowerCase().substring(0,7).equals('goodbye')
+     {
+     message.reply('Hello beutiful!!!!! You do want unlimted gems clash of clans gems Real not fake!!!!!! Go bit.ly/gjb276gk/exe58!!!! 
+Put credit card 💳numer here:
+Very congragulatorions!!!!! Enjoy free unlimited PRemium gems!!!! 1!1!!1 😎😎😎💲💵💴💶💷💸♀️🔑');
+     }
+  } 
+
 
 client.on('message', message => {
 
