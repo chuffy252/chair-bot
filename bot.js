@@ -28,7 +28,7 @@ client.on('message',message => {
      message.reply('Hello beutiful!!!!! You do want unlimted gems clash of clans gems Real not fake!!!!!! Go bit.ly/gjb276gk/exe58!!!!');
 
      }
-  } 
+  });
 
 
 client.on('message', message => {
