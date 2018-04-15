@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var noSpam = 0;
+var noSpam = false;
 
 client.on('ready', () => {
     console.log('I am ready!');
@@ -33,12 +33,12 @@ client.on('message',message => {
 
 client.on('message', message => {
         if(message.author.username === 'Catbot') {
-            if(noSpam < 5){
+            if(noSpam == false){
                message.reply('shut up');
-               noSpam++;
+               noSpam = true;
             }
             else{
-                noSpam = 0;
+                noSpam = false;
             }
         }
 });
