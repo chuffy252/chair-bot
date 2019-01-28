@@ -14,7 +14,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content.toLowerCase().substring(0, 17) === 'i love you chubot') {
-        if(message.author.username === 'Chuffy') {
+        if(message.author.username === 'Chuffy' | message.author.username === 'minichuffy') {
             message.reply('i love u chu');
         }
         else {
