@@ -1,2 +1,1 @@
-# chu-bot
-My discord bot
+# chair-bot
