@@ -34,15 +34,15 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-    if(message.content.toLowerCase().substring(0, 17) === 'i hate you chubot'){
+    if(message.content.toLowerCase().substring(0, 17) === 'i hate you chairbot'){
         message.reply('i will literally tear your throat out i swear i dare you to come at me come on you little shit dont act tough online and expect no repercussions huh what you waiting for yeah thats what i thought you absolute loser haha. pathetic.');
     }
 });
 
 client.on('message', message => {
-    if(message.content.toLowerCase().substring(0, 17) === 'i love you chubot') {
-        if(message.author.username === 'Chuffy' | message.author.username === 'minichuffy') {
-            message.reply('i love u chu');
+    if(message.content.toLowerCase().substring(0, 17) === 'i love you chairbot') {
+        if(message.author.username === 'Chuffy') {
+            message.reply('i love u justin chu');
         }
         else {
             message.reply('shut the fuck up');
