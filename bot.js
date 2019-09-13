@@ -24,6 +24,13 @@ client.on('message', message => {
     }
 });
 
+client.on('message', message => {
+    if(message.content.toLowerCase().substring(0, 7) === 'where u'){
+        message.reply('right behind you.');
+    }
+});
+
+
 
 
 client.on('message', message => {
